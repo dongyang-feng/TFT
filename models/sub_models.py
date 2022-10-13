@@ -334,7 +334,7 @@ class InterpretableMultiHeadAttention(nn.Module):
 class VariableSelectionNetwork(nn.Module):
     def __init__(
             self,
-            input_sizes: 
+            input_sizes:
     ):
 
 
