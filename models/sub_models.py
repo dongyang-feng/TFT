@@ -254,7 +254,6 @@ class PositionalEncoder(torch.nn.Module):
             return x
 
 
-
 class ScaledDotProductAttention(nn.Module):
     """点缩积注意力机制"""
     def __init__(self, dropout: float = None, scale: bool = True):
