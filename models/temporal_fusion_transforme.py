@@ -379,4 +379,3 @@ class TemporalFusionTransformer(BaseModelWithCovariates):
         encoder_lengths = x["encoder_lengths"]
         decoder_lengths = x["decoder_lengths"]
         x_cat = torch.cat([x])
-
