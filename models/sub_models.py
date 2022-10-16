@@ -164,7 +164,7 @@ class GateAddNorm(nn.Module):
 
 class GatedResidualNetwork(nn.Module):
     """Gated Residual Network(GRN)"""
-    def __ini__(
+    def __init__(
             self,
             input_size: int,
             hidden_size: int,
