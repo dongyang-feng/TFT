@@ -1,4 +1,6 @@
 # TFT （temporal fusion transformer） 风速预测模型复现
+## Day 11-1
+* 在python文件中出现的__all__=[]可以控制使用from xxx import * 时显示的接口
 ## Day 10-31
 完成了evaluate中内容，主要包括模型参数的保存，以及结果的打印，学习了使用os.path将相关的文件路径操作方法<br>
 问题loss损失函数需要重写
