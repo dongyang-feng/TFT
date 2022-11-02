@@ -1,4 +1,6 @@
 # TFT （temporal fusion transformer） 风速预测模型复现
+## Day 11-2
+添加对有乎其的，学   
 ## Day 11-1
 * 在python文件中出现的__all__=[]可以控制使用from xxx import * 时显示的接口
 ## Day 10-31
