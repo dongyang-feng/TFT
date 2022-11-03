@@ -1,6 +1,7 @@
 # TFT （temporal fusion transformer） 风速预测模型复现
 ## Day 11-2
-添加对有乎其的，学   
+先在LSTM上跑一下看看结果，先不使用VMD分解，需要的话后面在加上， 现在学习一下在训练集和测试集上进行归一化和反归一化的操作，有利于训练
+
 ## Day 11-1
 * 在python文件中出现的__all__=[]可以控制使用from xxx import * 时显示的接口
 ## Day 10-31
