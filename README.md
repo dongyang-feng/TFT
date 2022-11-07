@@ -1,4 +1,13 @@
 # TFT （temporal fusion transformer） 风速预测模型复现
+## Day 11-7
+* 使用数据集测试一下提供的dataset和dataloader的迭代输出包含两个部分，(x, y)<br>
+x：Dict[str: torch.Tensor] 11个分别为：
+encoder_cat, encoder_cont, encoder_target, encoder_lengths, decoder_cat, decoder_cont, decoder_lengths, decoder_time_idx,
+groups, target_scale<br>
+y: tuple 2个：
+target(torch.Tensor), weihgt一般为NAN
+* forward 函数完成了，还需要调试一下，看看能不能跑通
+* 模型的初始化参数直接使用Params类的实例化对象，给它传入所有的参数，包括json文件中便于调试定义的参数，以及从dataset中获得参数，以后可以考虑将dataset初始化的参数放到json文件中。
 ## Day 11-6
 首先还是使用她的dataset和detaloader，但是不知道会不会出现什么不会的东西在里面导致程序跑不通<br>
 所以明天需要做的第一件事就是要首先使用数据集测试一下提供的dataset和dataloader的迭代输出是什么样的<br>
